@@ -81,7 +81,7 @@ return (
                 <img className='img01' height={300} src="https://culturabienestar.com/wp-content/uploads/2020/06/Dise%C3%B1o-sin-t%C3%ADtulo-1.jpg" alt="Imagen 2" />
                 <div className="contenido">
                     <h2>DISH OF THE DAY 1</h2>
-                    <p>Texto descriptivo para la imagen 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>LEGUME VEGETABLES... TOTALLY VEGETARIAN</p>
                     <p>PRICE: $20</p>
                     <button onClick={handleComprarClick}>BUY</button>
                 </div>
