@@ -1,0 +1,459 @@
+
+
+
+.colorbody{
+    background-color: chocolate;
+    margin-left: -80px;
+    margin-right: -80px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul,
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    margin-top: -16px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Main container */
+
+.main-container {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    
+}
+
+/* Slider container */
+.slider-container {
+    position: relative;
+    height: 100%;
+    
+    
+}
+
+/* dots carrusel */
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot-container-item {
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+div.active {
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.section{
+    margin-bottom: 300px;
+}
+
+.text{
+    color: blue;
+    font-size: 2rem;
+}
+
+.recuadro2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding-top: 14px;
+    height: 300px;
+    
+}
+
+.recuadro2 img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 10px;
+    padding-top: 0;
+    
+    
+    
+}
+.img01{
+    width: 100%;
+    
+    
+}
+
+.recuadro2 .contenido {
+    flex: 1;
+    
+}
+.section2{
+    margin-top: -200px;
+}
+@media (min-width: 320px){
+    ul,
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    margin-top: -16px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Main container */
+
+.main-container {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    
+}
+
+/* Slider container */
+.slider-container {
+    position: relative;
+    height: 100%;
+    
+    
+}
+
+/* dots carrusel */
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot-container-item {
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+div.active {
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.section{
+    margin-top: 150px;
+}
+
+.text{
+    color: blue;
+    font-size: 1rem;
+    text-align: center;
+}
+.section2{
+    margin-top: -200px;
+}
+.recuadro2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding-top: 14px;
+    height: 250px;
+    width: 380px;
+    
+}
+}
+
+@media (min-width: 768px){
+    ul,
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    margin-top: -16px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Main container */
+
+.main-container {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    
+}
+
+/* Slider container */
+.slider-container {
+    position: relative;
+    height: 100%;
+    
+    
+}
+
+/* dots carrusel */
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot-container-item {
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+div.active {
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.section{
+    margin-top: 100px;
+}
+
+.text{
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.recuadro2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding-top: 14px;
+    width: 768px;
+    
+}
+}
+
+@media (min-width: 990px){
+    ul,
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    margin-top: -16px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Main container */
+
+.main-container {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    
+}
+
+/* Slider container */
+.slider-container {
+    position: relative;
+    height: 100%;
+    
+    
+}
+
+/* dots carrusel */
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot-container-item {
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+div.active {
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.section{
+    
+}
+.section2{
+    margin-top: -200px;
+}
+.text{
+    color: blue;
+    font-size: 2rem;
+}
+.recuadro2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding-top: 14px;
+    width: 1300px;
+    
+}
+}

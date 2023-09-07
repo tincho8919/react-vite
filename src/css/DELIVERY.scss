@@ -1,0 +1,113 @@
+/* src/components/DeliverySection.css */
+
+/* Estilos para la sección de entrega */
+.delivery-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 1300px;
+    
+}
+
+/* Estilos para la información de entrega */
+.delivery-info {
+    flex: 1;
+}
+
+.delivery-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.delivery-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos para las opciones de entrega */
+.delivery-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.delivery-options label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.delivery-options select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.delivery-options button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* .delivery-options button:hover {
+    background-color: #0056b3;
+} */
+.delivery-image {
+    margin-top: 100px;
+}
+.altoenvio{
+    height: 40px;
+    font-size: 25px;
+}
+/* Estilos para dispositivos móviles */
+@media (min-width: 320px){
+    .delivery-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        width: 300px;
+        margin-top: 150px;
+        
+    }
+    .delivery-image {
+        margin-top: 100px;
+    }
+}
+@media (min-width: 768px){
+    .delivery-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        width: 700px;
+        
+    }
+    .delivery-image {
+        margin-top: 100px;
+    }
+}
+@media (min-width: 990px){
+    .delivery-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        width: 1300px;
+        
+    }
+    
+    .delivery-image {
+        margin-top: 100px;
+    }
+
+}

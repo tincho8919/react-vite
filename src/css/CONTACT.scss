@@ -1,0 +1,93 @@
+/* Estilos para el contenedor del formulario */
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    /* Mostrar los elementos en columna */
+    align-items: center;
+    /* Centrar horizontalmente */
+    justify-content: center;
+    margin-top: 50px;
+    width: 1300px;
+    height: 900px;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los campos del formulario */
+.campo {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.alto {
+    height: 200px;
+    font-size: 20px;
+}
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para el botón */
+.button04 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+@media (min-width: 320px){
+    .formulario-container {
+        display: flex;
+        flex-direction: column;
+        /* Mostrar los elementos en columna */
+        align-items: center;
+        /* Centrar horizontalmente */
+        justify-content: center;
+        margin-top: 50px;
+        width: 320px;
+        height: 900px;
+        margin-top: 150px;
+    }
+}
+@media (min-width: 768px){
+    .formulario-container {
+        display: flex;
+        flex-direction: column;
+        /* Mostrar los elementos en columna */
+        align-items: center;
+        /* Centrar horizontalmente */
+        justify-content: center;
+        margin-top: 50px;
+        width: 750px;
+        height: 900px;
+        margin-top: 100px;
+    }
+}
+@media (min-width: 990px){
+    .formulario-container {
+        display: flex;
+        flex-direction: column;
+        /* Mostrar los elementos en columna */
+        align-items: center;
+        /* Centrar horizontalmente */
+        justify-content: center;
+        margin-top: 50px;
+        width: 1300px;
+        height: 900px;
+    }
+
+}

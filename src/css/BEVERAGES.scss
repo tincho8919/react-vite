@@ -1,0 +1,216 @@
+
+
+
+.tabla01{
+    
+}
+
+.container03 {
+    width: 1370px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: -80px;
+    align-items: center;
+    
+    
+} 
+
+.h03 {
+    text-align: center;
+    color: rgb(27, 41, 163);
+}
+
+/* Estilos de la tabla */
+.table03 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #6685eb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.td03{
+    padding: 12px;
+    text-align: left;
+    
+}
+.th03 {
+    padding: 12px;
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos de los botones */
+.button03 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de las imágenes */
+table img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    
+}
+
+/* Estilos del encabezado */
+thead th {
+    text-align: center;
+}
+
+@media (min-width: 320px){
+    .container03 {
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 150px;
+        margin-left: -100px;
+        margin-right: 10px;
+        align-items: center;
+        
+        
+    } 
+    .table03 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #6685eb;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        
+    }
+    .h03 {
+        text-align: center;
+        color: rgb(27, 41, 163);
+        font-size: 1.5rem;
+        margin-left: 100px;
+        
+    }
+    table img {
+        max-width: 40px;
+        max-height: 40px;
+        margin-top: 10px;
+        height: 100px;
+        width: 100px;
+        
+    }
+}
+@media (min-width: 768px){
+    .container03 {
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-left: -35px;
+        align-items: center;
+        
+        
+    } 
+    .table03 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #6685eb;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        
+    }
+    .h03 {
+        text-align: center;
+        color: rgb(27, 41, 163);
+        font-size: 2rem;
+    }
+    table img {
+        max-width: 40px;
+        max-height: 40px;
+        margin-top: 10px;
+        height: 300px;
+        width: 300px;
+        
+    }
+}
+@media (min-width: 990px){
+    
+.tabla01{
+    
+}
+
+.container03 {
+    width: 1370px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: -80px;
+    align-items: center;
+    
+    
+} 
+
+.h03 {
+    text-align: center;
+    color: rgb(27, 41, 163);
+}
+
+/* Estilos de la tabla */
+.table03 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #6685eb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.td03{
+    padding: 12px;
+    text-align: left;
+    
+}
+.th03 {
+    padding: 12px;
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos de los botones */
+.button03 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de las imágenes */
+table img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    
+}
+
+/* Estilos del encabezado */
+thead th {
+    text-align: center;
+}
+}
