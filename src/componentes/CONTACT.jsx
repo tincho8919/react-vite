@@ -33,7 +33,7 @@ function CONTACT() {
             <form onSubmit={handleSubmit} className="formulario">
                 <div className="campo">
                     <label htmlFor="username">USERNAME:</label>
-                    <input
+                    <input className='altoespacio'
                         type="text"
                         id="username"
                         name="username"
@@ -45,6 +45,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="email">EMAIL:</label>
                     <input
+                        className='altoespacio'
                         type="email"
                         id="email"
                         name="email"
@@ -56,6 +57,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="password">PASSWORD:</label>
                     <input
+                        className='altoespacio'
                         type="password"
                         id="password"
                         name="password"
@@ -67,6 +69,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="age">AGE:</label>
                     <input
+                        className='altoespacio' 
                         type="number"
                         id="age"
                         name="age"
@@ -78,6 +81,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="dateOfBirth">DATE OF BIRTH:</label>
                     <input
+                        className='altoespacio'
                         type="date"
                         id="dateOfBirth"
                         name="dateOfBirth"
@@ -89,6 +93,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="gender">SEX:</label>
                     <select
+                        className='altoespacio' 
                         id="gender"
                         name="gender"
                         value={formData.gender}
@@ -103,6 +108,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="country">COUNTRY:</label>
                     <input
+                        className='altoespacio'
                         type="text"
                         id="country"
                         name="country"
@@ -113,6 +119,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="province">PROVINCE:</label>
                     <input
+                        className='altoespacio'
                         type="text"
                         id="province"
                         name="province"
@@ -123,6 +130,7 @@ function CONTACT() {
                 <div className="campo">
                     <label htmlFor="location">LOCALITY:</label>
                     <input
+                        className='altoespacio'
                         type="text"
                         id="location"
                         name="location"

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../css/FOOT.scss';
+import '../css/FOOD.scss';
 
 function Producto({ imagenSrc, nombre, descripcion, precio }) {
     const handleComprarClick = () => {
@@ -24,7 +24,7 @@ function Producto({ imagenSrc, nombre, descripcion, precio }) {
     );
 }
 
-function FOOT() {
+function FOOD() {
     const productos = [
         {
             imagenSrc: 'https://th.bing.com/th/id/R.0879ac148e3b069387f1c6c99ff0d161?rik=h7i4ppTDEggfsw&pid=ImgRaw&r=0',
@@ -85,7 +85,7 @@ function FOOT() {
     return (
         <section className='tabla01'>
         <div className='container01'>
-            <h1 className='h01'> FOOT ONLINE</h1>
+            <h1 className='h01'> FOOD ONLINE</h1>
             <table className='table01'>
                 <thead>
                     <tr>
@@ -112,5 +112,5 @@ function FOOT() {
     );
 }
 
-export default FOOT;
+export default FOOD;
 

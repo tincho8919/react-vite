@@ -25,6 +25,11 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+    
+}
+.altoespacio{
+    height: 35px;
+    font-size: 20px;
 }
 .alto {
     height: 200px;
@@ -59,7 +64,7 @@ label {
         justify-content: center;
         margin-top: 50px;
         width: 320px;
-        height: 900px;
+        height: 1000px;
         margin-top: 150px;
     }
 }
@@ -73,7 +78,7 @@ label {
         justify-content: center;
         margin-top: 50px;
         width: 750px;
-        height: 900px;
+        height: 1000px;
         margin-top: 100px;
     }
 }
@@ -87,7 +92,7 @@ label {
         justify-content: center;
         margin-top: 50px;
         width: 1300px;
-        height: 900px;
+        height: 1000px;
     }
 
 }

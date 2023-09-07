@@ -6,7 +6,7 @@ import FOOTER from './componentes/FOOTER';
 import BEVERAGES from './componentes/BEVERAGES';
 import CONTACT from './componentes/CONTACT';
 import DELIVERY from './componentes/DELIVERY';
-import FOOT from './componentes/FOOT';
+import FOOD from './componentes/FOOD';
 import HOME from './componentes/HOME';
 import PROMOTION from './componentes/PROMOTION';
 
@@ -25,7 +25,7 @@ function App() {
 
 <Route exact path="/" component={HOME} />
 <Route path='/home' element={ <HOME /> }></Route>
-<Route path='/foot' element={ <FOOT /> }></Route>
+<Route path='/food' element={ <FOOD /> }></Route>
 <Route path='/promotion' element={ <PROMOTION /> }></Route>
 <Route path='/beverages' element={ <BEVERAGES /> }></Route>
 <Route path='/delivery' element={ <DELIVERY  /> }></Route>
