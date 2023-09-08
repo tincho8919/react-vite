@@ -24,12 +24,12 @@ function App() {
 <Routes>
 
 <Route index element={ <HOME /> }/> 
-<Route path='/home' element={ <HOME /> }></Route>
-<Route path='/food' element={ <FOOD /> }></Route>
-<Route path='/promotion' element={ <PROMOTION /> }></Route>
-<Route path='/beverages' element={ <BEVERAGES /> }></Route>
-<Route path='/delivery' element={ <DELIVERY  /> }></Route>
-<Route path='/contact' element={ <CONTACT  /> }></Route>
+<Route path='/home' element={ <HOME /> }/> 
+<Route path='/food' element={ <FOOD /> }/> 
+<Route path='/promotion' element={ <PROMOTION /> }/> 
+<Route path='/beverages' element={ <BEVERAGES /> }/> 
+<Route path='/delivery' element={ <DELIVERY  /> }/> 
+<Route path='/contact' element={ <CONTACT  /> }/> 
 
 </Routes>
 <FOOTER />
