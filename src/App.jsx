@@ -23,7 +23,7 @@ function App() {
 <NAVBAR />
 <Routes>
 
-<Route exact path="/" component={HOME} />
+<Route index element={ <HOME /> }/> 
 <Route path='/home' element={ <HOME /> }></Route>
 <Route path='/food' element={ <FOOD /> }></Route>
 <Route path='/promotion' element={ <PROMOTION /> }></Route>
