@@ -23,12 +23,12 @@ const NAVBAR = () => {
                 </button>
             </div>
             <ul className="navbar-links">
-                <li className="navbar-link"  ><Link className="navbar-link" to='/home'>HOME</Link></li>
-                <li className="navbar-link"  ><Link className="navbar-link" to='/food'>FOOD</Link></li>
-                <li className="navbar-link"  ><Link className="navbar-link" to='/promotion'>PROMOTION</Link></li>
-                <li className="navbar-link"  ><Link className="navbar-link" to='/beverages'>BEVERAGES</Link></li>
-                <li className="navbar-link"  ><Link className="navbar-link" to='/delivery'>DELIVERY</Link></li>
-                <li className="navbar-link"  ><Link className="navbar-link" to='/contact'>CONTACT</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/home'>HOME</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/food'>FOOD</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/promotion'>PROMOTION</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/beverages'>BEVERAGES</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/delivery'>DELIVERY</Link></li>
+                <li className="navbar-link" ><Link className="navbar-link" to='/contact'>CONTACT</Link></li>
             </ul>
         </nav>
     );
