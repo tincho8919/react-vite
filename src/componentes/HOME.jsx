@@ -75,8 +75,6 @@ return (
                     </div>
                 </div>
             </div>
-        </section>
-        <section className='section2'>
             <div className="recuadro2">
                 <img className='img01' height={300} src="https://culturabienestar.com/wp-content/uploads/2020/06/Dise%C3%B1o-sin-t%C3%ADtulo-1.jpg" alt="Imagen 2" />
                 <div className="contenido">

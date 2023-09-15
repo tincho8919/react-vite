@@ -3,8 +3,6 @@
 
 .colorbody{
     background-color: chocolate;
-    margin-left: -80px;
-    margin-right: -80px;
     display: flex;
     flex-direction: column;
 }
@@ -133,7 +131,6 @@ div.active {
     
 }
 .section2{
-    margin-top: -200px;
 }
 @media (min-width: 320px){
     ul,
@@ -222,7 +219,8 @@ div.active {
     border-radius: 50%;
 }
 .section{
-    margin-top: 150px;
+    margin-top: 300px;
+    margin-bottom: 0px;
 }
 
 .text{
@@ -332,7 +330,7 @@ div.active {
     border-radius: 50%;
 }
 .section{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .text{
@@ -438,10 +436,10 @@ div.active {
     border-radius: 50%;
 }
 .section{
-    
+    margin-top: 200px;
 }
 .section2{
-    margin-top: -200px;
+    
 }
 .text{
     color: blue;
