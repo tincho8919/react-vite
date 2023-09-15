@@ -1,7 +1,7 @@
 
 
 
-.tabla01{
+.tabla02{
     
 }
 
@@ -17,7 +17,7 @@
 
 .h02 {
     text-align: center;
-    color: rgb(250, 74, 21);
+    color: rgb(238, 20, 38);
 }
 
 /* Estilos de la tabla */
@@ -25,7 +25,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #d8be49;
+    background-color: #df2929;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     
 }
@@ -49,7 +49,7 @@ tr:nth-child(even) {
 
 /* Estilos de los botones */
 .button02 {
-    background-color: #d62a2a;
+    background-color: #dd1212;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -57,7 +57,7 @@ tr:nth-child(even) {
 }
 
 button:hover {
-    background-color: #20e4e4;
+    background-color: #4ef5e7;
 }
 
 /* Estilos de las imágenes */
@@ -74,27 +74,27 @@ thead th {
 }
 
 @media (min-width: 320px){
-    .container02 {
+    .container02{
         width: 320px;
         margin: 0 auto;
-        margin-top: 150px;
-        margin-left: -100px;
-        margin-right: 10px;
+        margin-top: 300px;
         align-items: center;
         
         
-    }  
-    .table02 {
+    } 
+    .table02{
         width: 100%;
         border-collapse: collapse;
         margin-top: 20px;
-        background-color: #d8be49;
+        margin-left: -10px;
+        margin-right: -10px;
+        background-color: #df2929;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         
     }
     .h02 {
         text-align: center;
-        color: rgb(250, 74, 21);
+        color: rgb(238, 20, 38);
         font-size: 1.5rem;
         margin-left: 100px;
         
@@ -112,8 +112,7 @@ thead th {
     .container02 {
         width: 768px;
         margin: 0 auto;
-        margin-top: 120px;
-        margin-left: -35px;
+        margin-top: 200px;
         align-items: center;
         
         
@@ -122,13 +121,13 @@ thead th {
         width: 100%;
         border-collapse: collapse;
         margin-top: 20px;
-        background-color: #d8be49;
+        background-color: #df2929;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         
     }
     .h02 {
         text-align: center;
-        color: rgb(250, 74, 21);
+        color: rgb(238, 20, 38);
         font-size: 2rem;
     }
     table img {
@@ -149,8 +148,7 @@ thead th {
 .container02 {
     width: 1370px;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-left: -80px;
+    margin-top: 100px;
     align-items: center;
     
     
@@ -158,7 +156,7 @@ thead th {
 
 .h02 {
     text-align: center;
-    color: rgb(250, 74, 21);
+    color: rgb(238, 20, 38);
 }
 
 /* Estilos de la tabla */
@@ -166,7 +164,7 @@ thead th {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #d8be49;
+    background-color: #df2929;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     
 }
@@ -190,7 +188,7 @@ tr:nth-child(even) {
 
 /* Estilos de los botones */
 .button02 {
-    background-color: #d62a2a;
+    background-color: #dd1212;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -198,7 +196,7 @@ tr:nth-child(even) {
 }
 
 button:hover {
-    background-color: #20e4e4;
+    background-color: #4ef5e7;
 }
 
 /* Estilos de las imágenes */

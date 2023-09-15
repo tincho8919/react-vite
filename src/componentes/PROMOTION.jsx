@@ -86,7 +86,7 @@ function PROMOTION() {
     return (
         <section className='tabla02'>
         <div className='container02'>
-            <h1 className='h02'> PROMOTION ONLINE</h1>
+            <h1 className='h02'>PROMOTION ONLINE</h1>
             <table className='table02'>
                 <thead>
                     <tr>
